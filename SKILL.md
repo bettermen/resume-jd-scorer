@@ -15,6 +15,11 @@ trigger_words:
 agent_created: true
 location: user
 allowed-tools: ["Bash", "Read", "Write", "Edit", "WebSearch", "WebFetch"]
+metadata:
+  openclaw:
+    requires:
+      bins:
+        - python
 ---
 
 # 简历-JD 5维度匹配度评分技能
